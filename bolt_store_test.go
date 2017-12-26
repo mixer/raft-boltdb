@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/GetStream/raft"
 	"github.com/boltdb/bolt"
-	"github.com/hashicorp/raft"
 )
 
 func testBoltStore(t testing.TB) *BoltStore {
